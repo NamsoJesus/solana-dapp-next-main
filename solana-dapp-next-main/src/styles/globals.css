@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Staatliches', cursive;
+}
+
+a {
+  color: inherit;
+  text-decoration: none; 
+
+}
+
+* {
+  box-sizing: border-box;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wallet-adapter-button:not([disabled]):hover {
+  background-color: #707070;
+}
+
+
+.overflow-hidden-scroll {
+  overflow-y: hidden;
+}
+.font-color {
+ color: #D3D3D3
+}
