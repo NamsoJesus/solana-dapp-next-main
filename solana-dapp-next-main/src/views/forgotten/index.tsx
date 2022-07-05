@@ -13,3 +13,4 @@ export const ForgottenView: FC = ({ }) => {
     </div>
   );
 };
+
